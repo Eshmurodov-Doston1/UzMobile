@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/balans"
+    android:title="Balans"
+    android:icon="@drawable/ic_group_12"/>
+    <item android:id="@+id/operator"
+        android:title="Operator"
+        android:icon="@drawable/ic_group_13"/>
+    <item android:id="@+id/news"
+        android:title="Yangiliklar"
+        android:icon="@drawable/ic_group_11"/>
+    <item android:id="@+id/settings"
+        android:title="Sozlamalar"
+        android:icon="@drawable/ic_group_10"/>
+</menu>

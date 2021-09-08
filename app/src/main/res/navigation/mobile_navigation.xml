@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.uzmobile.ui.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_operatorFragment"
+            app:destination="@id/operatorFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_ussdFragment"
+            app:destination="@id/ussdFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_serviceFragment"
+            app:destination="@id/serviceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/operatorFragment"
+        android:name="com.example.uzmobile.ui.operator.OperatorFragment"
+        android:label="Operatr bilan bog'lanish"
+        tools:layout="@layout/fragment_operator" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.uzmobile.ui.news.NewsFragment"
+        android:label="Yangiliklar"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_newsFragment_to_newsInformationFragment"
+            app:destination="@id/newsInformationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsInformationFragment"
+        android:name="com.example.uzmobile.ui.news.NewsInformationFragment"
+        android:label=""
+        tools:layout="@layout/fragment_news_information" />
+    <fragment
+        android:id="@+id/ussdFragment"
+        android:name="com.example.uzmobile.ui.ussd.UssdFragment"
+        android:label=""
+        tools:layout="@layout/fragment_ussd" >
+        <action
+            android:id="@+id/action_ussdFragment_to_definitionFragment"
+            app:destination="@id/definitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/definitionFragment"
+        android:name="com.example.uzmobile.ui.definition.DefinitionFragment"
+        android:label="fragment_definition"
+        tools:layout="@layout/fragment_definition" />
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.uzmobile.ui.service.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196736121193",
+    "project_id": "ussd-fd96e",
+    "storage_bucket": "ussd-fd96e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196736121193:android:8a30ae147824f44d8325f8",
+        "android_client_info": {
+          "package_name": "com.example.uzmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196736121193-ufpft8s8h2rbhk8vtugrbg8vcm1peld9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBflAmf5V4gplSb-6YtmzkUzRpvifzQw0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196736121193-ufpft8s8h2rbhk8vtugrbg8vcm1peld9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
